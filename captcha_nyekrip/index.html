@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<title>
+		Halaman Login
+		</title>
+	</head>
+	<body>
+	  <p align="center"><b>Isi Username dan Password Anda</b></p>
+	  <!-- Membuat Form Login -->
+	  <!-- tentukan aksi jika form telah disubmit -->
+		<form action="hasil.php" method="post">
+		  <table border="0" cellpadding="0" cellspacing="0" align="center">
+			<tr>
+			  <td> Username </td>
+			  <td><input name="username" value="" maxlength="10"></td>
+		    </tr>
+			<tr>
+			  <td>Password</td>
+			  <td><input type="password" name="password" value ="" maxlength="10"></td>
+			</tr>
+			<tr>
+			  <td>Captcha</td>
+			  <!-- kita tentukan letak dari skrip generate gambar -->
+			  <td><img src="gambar.php" alt="gambar" /> </td>
+		    </tr>
+			  <td>Isikan captcha </td>
+			  <td><input name="nilaiCaptcha" value="" maxlength="6"/></td>
+			<tr>
+			  <td><input type ="submit" value="Masuk"></td>
+			</tr>
+		  </table>
+		</form>
+	</body>
+</html>

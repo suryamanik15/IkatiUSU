@@ -1,0 +1,124 @@
+body {
+	margin-top: 50 px;
+}
+
+.navbar-custom {
+     margin-bottom: 0;
+     border-bottom: 1px solid rgba(0,0,0,2);
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	background:black;
+}
+
+.navbar-custom .navbar-brand {
+    font-weight: 400;
+}
+
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+
+.navbar-custom a {
+    color: #fff;
+}
+
+.navbar-custom .nav li.active {
+    outline: nonte;
+    background-color: rgba(255,255,255,.3);
+}
+
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a.active {
+    outline: 0;
+    background-color: rgba(255,255,255,.3);
+}
+
+.con {
+  margin-right: 200px;
+  margin-left: 200px;
+min-height:475px;
+}
+
+
+.gaya {
+    background: url('../img/intro-bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.gaya2 {
+    background: url('../img/intro-bg-admin.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.bg_hitam{
+	    display: none;
+	    position: absolute;
+	    position: fixed;
+	    top: 0%;
+	    left: 0%;
+	    width: 100%;
+	    height: 100%;
+	    background-color: #C2C2C2;
+	    z-index:1001;
+	    -moz-opacity: 0.9;
+	    opacity:.90;
+	    filter: alpha(opacity=90);
+	}
+.kotak {
+	    display: none;
+	    position: absolute;
+	    position: fixed;
+	    top: 25%;
+	    left: 30%;
+	    width: 500px;
+	    height: 400px;
+	    padding: 16px;
+	    border: 3px solid #DDDDDD;
+	    background-color: white;
+	    border-radius: 8px;
+	    box-shadow: 0 0 10px 0.1px #242424;
+	    z-index:1002;
+	    overflow: auto;
+	}
+.isi
+{
+	margin:5%;
+	font-size:16px;
+}
+#thumbs{
+	width:150px;
+	height:150px;
+}
+#imagePreview{
+    width: 150px;
+    height: 150px;
+    background-position: center center;
+    background-size: cover;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, .3);
+    display: inline-block;
+}
+#content{
+min-height:596px;
+}
